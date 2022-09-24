@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+body{
+    background-image: url(images/novobackgroundheader.jpg);
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+
+}
+header{
+    background-image: url(images/painel-paisagem-natureza-m-lona-grande.jpg);
+    margin-bottom: 0px;
+    height: 400px;
+    margin-bottom: 80px;
+    
+   
+ }
+ header img{
+    width: 100%;
+    margin: 0px;
+    
+  
+ }
+    
+
+header> h1{
+   
+    margin: 0px;
+    padding: 200px 10px;
+    border-radius: 10px ;
+    width: 400px;
+    color: rgba(245, 245, 245, 0.753);
+    font-size: 35px;
+    margin-top: 0px;
+    line-height: 50px;
+  
+    
+    
+}
+main{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin: auto ;
+    margin-top: -100px;
+    width: auto;
+    
+}
+.fotos{
+    
+    
+}
+.fotos h2{
+    background-color: #D25EEA;
+    width: 400px;
+    margin: 0px 0px -5px 0px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px 10px;
+    padding: 10PX 0PX;
+    color: white;
+    box-shadow: 0px 0px 8px black;
+}
+
+.fotos img{
+    width: 400px;
+    height: 450px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px ;
+    box-shadow: 0px 0px 8px black;
+    
+}
+.video{
+    
+     
+        
+    
+}
+.video h2{
+    background-color: #D25EEA;
+    width: 400px;
+    margin: 0px 0px -5px 0px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px 10px;
+    padding: 10PX 0PX;
+    color: white;
+    box-shadow: 1px 1px 8px black;
+}
+.video img{
+    width: 400px;
+    height: 450px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px ;
+    box-shadow: 0px 0px 8px black;
+}
+   
+footer{
+    background-color: #D25EEA;
+    margin-bottom: -20px;
+    color: white;
+    text-align: center;
+}
