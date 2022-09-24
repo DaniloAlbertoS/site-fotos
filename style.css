@@ -48,8 +48,13 @@ main{
     width: auto;
     
 }
-.fotos{
+.fotos:hover{
+    box-shadow: 1px 1px 8px white;
     
+}
+.fotos h2:hover{
+    background-color:  #9340a3;
+    box-shadow: 1px 1px 10px white;
     
 }
 .fotos h2{
