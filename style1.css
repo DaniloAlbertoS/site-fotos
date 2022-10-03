@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+body{
+    background-image: url(images/novobackgroundheader.jpg);
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+
+}
+header{
+    background-image: url(images/painel-paisagem-natureza-m-lona-grande.jpg);
+    margin-bottom: 0px;
+    height: 400px;
+    margin-bottom: 80px;
+    
+   
+ }
+ header img{
+    width: 100%;
+    margin: 0px;
+    
+  
+ }
+ header> h1{
+   
+    margin: 0px;
+    padding: 200px 10px;
+    border-radius: 10px ;
+    width: 400px;
+    color: rgba(245, 245, 245, 0.753);
+    font-size: 45px;
+    margin-top: 0px;
+    line-height: 50px;
+    align-items: center;
+  
+    
+    
+}
+main{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: auto ;
+    
+ 
+    
+}
+h2{
+    font-size: 3em;
+    text-align: center;
+    color: purple;
+    
+    
+}
+.fotos:hover{
+    box-shadow: 2px 2px 8px white;
+    cursor:pointer;
+}
+.fotos{
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.fotos img{
+    width: 200px;
+    height: 250px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px ;
+    box-shadow: 0px 0px 8px black;
+    
+}
+.fotos img:hover{
+    box-shadow: 2px 2px 15 px black;
+  }

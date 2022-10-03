@@ -49,13 +49,23 @@ main{
     
 }
 .fotos:hover{
-    box-shadow: 1px 1px 8px white;
+    box-shadow: 1px 1px 8px whitesmoke;
+    
+    
     
 }
+img:hover{
+    width: 1000px;
+    color: black;
+}
+
 .fotos h2:hover{
     background-color:  #9340a3;
     box-shadow: 1px 1px 10px white;
     
+}
+.fotos{
+    border-radius: 10px;
 }
 .fotos h2{
     background-color: #D25EEA;
@@ -77,10 +87,17 @@ main{
     box-shadow: 0px 0px 8px black;
     
 }
+.fotos img:hover{
+  box-shadow: 2px 2px 15 px black;
+  cursor:pointer;
+}
+
+
+
+ figcaption:hover{
+  
+}
 .video{
-    
-     
-        
     
 }
 .video h2{
